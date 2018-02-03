@@ -6,16 +6,24 @@
     android:layout_height="match_parent"
     tools:context="com.example.pink24.myapplication.MyPageActivity">
 
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mylogin"
+        android:textSize="40dp"
+
+        />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/mypass"
 
-        android:textSize="40dp"/>
+        android:textSize="40dp"
+        android:layout_below="@+id/mylogin"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent" />
 
 
 </RelativeLayout>
